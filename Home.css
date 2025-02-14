@@ -1,0 +1,130 @@
+/* Main container styles */
+.container-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: black;
+}
+
+.container-item {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.center-items {
+  text-align: center;
+}
+
+/* Information display */
+.info {
+  background-color: #f8f9fa;
+  color: #2c3e50;
+  font-size: 16px;
+  padding: 15px;
+}
+
+.attention {
+  background-color: #fff3cd;
+  color: #000000;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Form styling */
+.about-admin, .about-election {
+  margin: 30px 0;
+}
+
+.about-admin h3, .about-election h3 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.label-home {
+  display: block;
+  margin-bottom: 20px;
+  color: #495057;
+  font-weight: 500;
+}
+
+
+
+
+.input-home {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.input-home:focus {
+  outline: none;
+  border-color: #80bdff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.input-home::placeholder {
+  color: #6c757d;
+}
+
+/* Error message styling */
+span[style*="color: tomato"] {
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+/* Link styling */
+a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container-main {
+    padding: 15px;
+  }
+
+  .input-home {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .about-admin h3, .about-election h3 {
+    font-size: 20px;
+  }
+}
+
+/* Loading state */
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: #6c757d;
+  font-size: 18px;
+}
+
+/* Account display */
+.account-info {
+  font-family: monospace;
+  word-break: break-all;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 4px;
+  margin: 10px 0;
+}
